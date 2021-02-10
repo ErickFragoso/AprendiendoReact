@@ -36,18 +36,18 @@ class App extends Component {
         <div className="col-md-4" key={i}>
           <div className="card mt-4">
             <div className="card-title text-center">
-              <h3>{todo.title}</h3>
               <span className="badge rounded-pill bg-danger">
                 {todo.priority}
               </span>
+              <h3>{todo.title}</h3>
             </div>
-            <div className="card-body">
+            <div className="card-body text-center mt-0">
               {todo.description}
             </div>
-            <div className="card-body">
+            <div className="card-body text-center mt-0">
               {todo.responsible}
             </div>
-            <div className="position-absolute bottom-0 start-50 translate-middle-x card-footer">
+            <div className="card-footer text-center">
               <button
                 className="btn btn-warning"
                 onClick={this.removeTodo.bind(this, i)}>

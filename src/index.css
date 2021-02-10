@@ -11,3 +11,15 @@ h4 {
 h2 {
     color: #FFC107;
 }
+
+h3 {
+    font-size: 25px;
+}
+
+.card-body {
+    align-items: center;
+}
+
+.card {
+    background-color: #D4D4D4;
+}
